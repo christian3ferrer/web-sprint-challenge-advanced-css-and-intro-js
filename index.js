@@ -219,7 +219,7 @@ console.log(artists[2].bio);
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 
-artists[8].name = 'Vincent Van Gogh'
+//artists[8].name = 'Vincent Van Gogh'
 
 console.log(artists[8].name);
 
@@ -248,7 +248,12 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array) {
   const deadArtists = [];
-  if()
+  for(let i =0; i < artists.length; i++){
+    if(artists[i].years >= '1900'){
+    deadArtists.push(artists[i].name);
+    }
+  }
+  return deadArtists;
 }
 
 
@@ -304,7 +309,13 @@ Use lotsOfArt to do the following:
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
 function lotsOfArt(array) {
-
+  const alot = [];
+  for(let i = 0; i < artists.length; i++){
+    if(artists[i].paintings > '100'){
+      alot.push(artists[i].name);
+    }
+  }
+  return alot;
  }
  
 
