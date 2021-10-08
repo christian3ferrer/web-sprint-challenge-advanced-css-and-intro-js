@@ -221,7 +221,7 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
 
 //artists[8].name = 'Vincent Van Gogh'
 
-console.log(artists[8].name);
+// console.log(artists[8].name);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
