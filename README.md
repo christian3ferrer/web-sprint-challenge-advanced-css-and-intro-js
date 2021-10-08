@@ -38,7 +38,7 @@ A keyword that we gave a value to and can call upon later when we need that valu
 
 So that users can plug in data and recieve different results based on the data given
 
-5. How do you access a key inside of an object inside of an array?
+5. How do you access a key inside of an object inside of an array?.
 
 array.key
 
